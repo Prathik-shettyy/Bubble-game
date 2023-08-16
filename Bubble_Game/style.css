@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E3FDFD;
+}
+
+#panel{
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 85%;
+    height: 83%;
+    border-style: solid;
+    border-color: black;
+}
+#ptop{
+    padding: 0px 20%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    background-color: #00ADB5;
+}
+.elem{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.elem{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    color: #00ADB5;
+    padding: 10px 20px   ;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#pbtm{
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100%-80px);
+    border-top-style: solid;
+    border-top-color: black;
+    
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #71C9CE;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    background-color: #00ADB5;
+    cursor: pointer;
+}
